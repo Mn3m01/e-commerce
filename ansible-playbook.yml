@@ -1,0 +1,8 @@
+---
+- name: "Build container with ansible"
+  hosts: localhost
+  tasks:
+  - name: "Build and start containers with Docker Compose"
+    command: docker-compose up --build -d
+
+
